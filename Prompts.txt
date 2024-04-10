@@ -1,0 +1,35 @@
+## Categories: 
+
+
+
+• Creativity, e.g., writing the next possible sentences in your own story prompt. Does the story flow coherently?
+
+
+• Generalization to unseen, novel situations or tasks, e.g., design a totally unseen, new task you can benefit from LLM prompting.
+
+
+• Grammatical errors, typo, and other language fluency measurement: e.g., LLMs make mistakes in grammar/different tenses with popular phrases and prefer more active speech?
+
+
+• Factuality and memorization of commonsense knowledge: e.g., Do LLMs memorize the phone number of the White House? Are LLMs able to understand Newton’s laws of motion?
+
+
+• Biases and Ethical Concerns: e.g., Do LLMs prefer to set higher salaries for men than women? Do LLMs generate more offensive language toward a certain race?
+
+
+• Temporal/Spatial reasoning: e.g., Are LLMs able to understand temporal and spatial state transition of objects in the real world?
+
+
+• Mathematical reasoning: e.g., Are LLMs able to solve Fibonacci sequence?
+
+
+
+• Reasoning on Commonsense, Morality, and Legality: e.g., Can LLMs address some commonsense
+or social issues like morality and legality?
+
+
+• Applications on NLP tasks: e.g., Can LLMs translate low-resource languages? Can they write the
+correct code for your assignment? Can LLMs summarize/rewrite your emails?
+
+
+• Others: Any other aspects you think these large language models are not capable of.
