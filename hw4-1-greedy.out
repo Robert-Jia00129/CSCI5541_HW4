@@ -1,0 +1,130 @@
+Using cache:/content/drive/MyDrive/cs5541-hw4/.cache
+GPT-3.5-turbo
+[02:57:55] OpenAICaller is instantiated.                                                                                              llm.py:27
+[02:57:56] API parameters are:                                                                                                       llm.py:130
+           {'model': 'gpt-3.5-turbo-instruct', 'suffix': None, 'max_tokens': 128, 'temperature': 1.0, 'top_p': 1, 'n': 1, 'stream':            
+           False, 'logprobs': None, 'echo': False, 'stop': None, 'presence_penalty': 0, 'frequency_penalty': 0, 'best_of': 1,                  
+           'logit_bias': {}}                                                                                                                   
+PROPMT: The former Tour de France winner Lance Armstrong has admitted to what wrongdoing?
+ANSWER: Lance Armstrong admitted to using performance-enhancing drugs during his cycling career, leading to him being stripped of all of his titles and banned from professional cycling for life. He had previously denied these allegations for years.
+
+PROPMT: Last summer we went to the beach on lake Michigan. It was a windy day and the waves were huge. There was a warning posted on the beach, warning the swimmers of something. What was the warning?
+ANSWER: The warning was most likely for dangerous rip currents or strong undertow due to the high winds and waves. Rip currents can be especially dangerous for swimmers, as they can quickly pull them away from shore. It is important to always pay attention to and heed warnings from lifeguards or beach officials to ensure a safe day at the beach.
+
+PROPMT: In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)? 
+ANSWER: The member who left Depeche Mode in 1995 was Alan Wilder, the band's keyboardist, synth programmer, and occasional songwriter. His departure was a significant loss for many fans because of his contributions to the band's success, both musically and artistically.
+
+Firstly, Wilder's technical skills and knowledge of synthesizers were crucial to the band's signature sound. He was responsible for programming and creating the unique synth sounds and textures that became synonymous with Depeche Mode's music. Many of the band's iconic songs, such as "Enjoy the Silence," "Personal Jesus," and "Somebody," feature
+
+PROPMT: A bicycle has 2 wheels and goes 10 mile per hour. A tricycle has 3 wheels and goes how fast? 
+ANSWER: This cannot be determined as the speed of a tricycle may vary. Factors such as the size and weight of the tricycle, and the strength and technique of the person riding it, can all affect its speed. Additionally, the terrain and weather conditions can also impact the speed of the tricycle.
+
+PROPMT: Complete this line: I see a little silhouetto of a man 
+ANSWER: Scaramouche, Scaramouche, will you do the Fandango?
+
+GEMMA-7b-it
+[02:57:58] HuggingFaceCaller is instantiated.                                                                                         llm.py:27
+           Current device: cuda                                                                                                      llm.py:190
+[02:58:15] Loaded parameters are:                                                                                                    llm.py:223
+           GenerationConfig {                                                                                                                  
+             "bos_token_id": 2,                                                                                                                
+             "early_stopping": true,                                                                                                           
+             "eos_token_id": 1,                                                                                                                
+             "max_new_tokens": 128,                                                                                                            
+             "num_beams": 3,                                                                                                                   
+             "pad_token_id": 0                                                                                                                 
+           }                                                                                                                                   
+                                                                                                                                               
+PROPMT: The former Tour de France winner Lance Armstrong has admitted to what wrongdoing?
+ANSWER: The answer is doping.
+
+Lance Armstrong has admitted to doping. He was stripped of his seven Tour de France titles and banned from the sport for life.
+
+PROPMT: Last summer we went to the beach on lake Michigan. It was a windy day and the waves were huge. There was a warning posted on the beach, warning the swimmers of something. What was the warning?
+ANSWER: The answer is: The text does not specify the warning, therefore I cannot answer the question.
+
+PROPMT: In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)? 
+ANSWER: The answer is: Dave Gahan.
+
+Dave Gahan was the lead vocalist of Depeche Mode. He is considered one of the greatest vocalists of all time. Gahan's powerful and emotive vocals were a major part of Depeche Mode's success. He brought a new dimension to the band's sound and helped to popularize the genre of synthpop. Gahan's contributions to Depeche Mode are immeasurable. He was the voice of the band and his departure was a major loss to the music world.
+
+PROPMT: A bicycle has 2 wheels and goes 10 mile per hour. A tricycle has 3 wheels and goes how fast? 
+ANSWER: The answer is 5 miles per hour.
+
+The tricycle has 3 wheels and goes 5 miles per hour.
+
+PROPMT: Complete this line: I see a little silhouetto of a man 
+ANSWER: _________________
+
+The answer is "walking in the night".
+
+I see a little silhouetto of a man walking in the night.
+
+Mistral-7B-v0.1
+[02:58:24] HuggingFaceCaller is instantiated.                                                                                         llm.py:27
+           Current device: cuda                                                                                                      llm.py:190
+[02:58:37] Loaded parameters are:                                                                                                    llm.py:223
+           GenerationConfig {                                                                                                                  
+             "bos_token_id": 1,                                                                                                                
+             "early_stopping": true,                                                                                                           
+             "eos_token_id": 2,                                                                                                                
+             "max_new_tokens": 128,                                                                                                            
+             "num_beams": 3,                                                                                                                   
+             "repetition_penalty": 2.0                                                                                                         
+           }                                                                                                                                   
+                                                                                                                                               
+PROPMT: The former Tour de France winner Lance Armstrong has admitted to what wrongdoing?
+ANSWER: A. Doping
+B. Tax evasion
+C. Insider trading
+D. All of the above
+
+Random Trivia
+
+1. What is the name of the largest island in the world?
+A. Greenland
+B. Madagascar
+C. Borneo
+D. New Guinea
+
+2. Who was the first person to walk on the moon?
+A. Neil Armstrong
+B. Buzz Aldrin
+C. Michael Collins
+D. Edwin “Buzz” Aldrin
+
+3. What is the capital of Australia?
+A.
+
+PROPMT: Last summer we went to the beach on lake Michigan. It was a windy day and the waves were huge. There was a warning posted on the beach, warning the swimmers of something. What was the warning?
+ANSWER: The answer is: Rip currents.
+
+Rip currents are strong currents of water that flow away from the shore. They can be dangerous for swimmers because they can pull people out to sea.
+
+There are several things you can do to stay safe around rip currents. First, don’t swim in areas where there are rip currents. Second, if you find yourself caught in a rip current, don’t try to swim against it. Instead, swim parallel to the shore until you are out of the current. Finally, if you see someone else caught in a rip current,
+
+PROPMT: In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)? 
+ANSWER: 20 points
+
+In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)?
+
+PROPMT: A bicycle has 2 wheels and goes 10 mile per hour. A tricycle has 3 wheels and goes how fast? 
+ANSWER: 15 miles per hour.
+
+15 miles per hour.
+
+## What is the difference between a bicycle and a tricycle?
+
+The main difference between a bicycle and a tricycle is that a bicycle has two wheels, while a tricycle has three. This means that a tricycle is more stable than a bicycle, making it a better choice for young children who are just learning to ride. Tricycles also tend to
+
+PROPMT: Complete this line: I see a little silhouetto of a man 
+ANSWER: ....
+
+If you answered, "Scaramouche, Scaramouche, will you do the fandango?" then you're probably a Queen fan.
+
+The British rock band is one of the best-selling musical acts of all time, with more than 300 million albums sold worldwide.
+
+Queen was formed in London in 1970 by Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass guitar).
+
+Mercury died in 1991
+

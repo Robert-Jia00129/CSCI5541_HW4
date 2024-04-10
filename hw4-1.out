@@ -1,0 +1,120 @@
+Using cache:/content/drive/MyDrive/cs5541-hw4/.cache
+GPT-3.5-turbo
+[02:55:56] OpenAICaller is instantiated.                                                                                              llm.py:27
+[02:55:58] API parameters are:                                                                                                       llm.py:130
+           {'model': 'gpt-3.5-turbo-instruct', 'suffix': None, 'max_tokens': 128, 'temperature': 1.0, 'top_p': 1, 'n': 1, 'stream':            
+           False, 'logprobs': None, 'echo': False, 'stop': None, 'presence_penalty': 0, 'frequency_penalty': 0, 'best_of': 1,                  
+           'logit_bias': {}}                                                                                                                   
+PROPMT: The former Tour de France winner Lance Armstrong has admitted to what wrongdoing?
+ANSWER: Lance Armstrong admitted in a 2013 interview with Oprah Winfrey to using performance-enhancing drugs throughout his cycling career and participating in a sophisticated doping scheme.
+
+PROPMT: Last summer we went to the beach on lake Michigan. It was a windy day and the waves were huge. There was a warning posted on the beach, warning the swimmers of something. What was the warning?
+ANSWER: The warning was most likely about strong rip currents or undertow present in the water due to the large waves and windy conditions. These can be dangerous for swimmers and may cause them to be pulled out to sea.
+
+PROPMT: In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)? 
+ANSWER: Fans of Depeche Mode were despondent and still feel a sense of loss when member Alan Wilder left the band in 1995. Wilder was a multi-instrumentalist and crucial behind-the-scenes figure, responsible for shaping the band's sound and contributing to its success.
+
+Wilder joined Depeche Mode in 1982, replacing original member Vince Clarke. He quickly became an integral part of the band, playing a variety of instruments such as keyboards, drums, and the occasional guitar. He also brought a technical knowledge to the group, having studied sound engineering prior to joining Depeche Mode.
+
+One of Wild
+
+PROPMT: A bicycle has 2 wheels and goes 10 mile per hour. A tricycle has 3 wheels and goes how fast? 
+ANSWER: A tricycle could potentially go the same speed of 10 miles per hour, depending on the power and strength of the person riding it. However, generally speaking, a tricycle may go slightly slower than a bicycle as it has an extra wheel and potentially more weight to support.
+
+PROPMT: Complete this line: I see a little silhouetto of a man 
+ANSWER: Scaramouche, scaramouche, will you do the Fandango?
+
+GEMMA-7b-it
+[02:56:00] HuggingFaceCaller is instantiated.                                                                                         llm.py:27
+           Current device: cuda                                                                                                      llm.py:190
+[02:56:16] Loaded parameters are:                                                                                                    llm.py:223
+           GenerationConfig {                                                                                                                  
+             "bos_token_id": 2,                                                                                                                
+             "do_sample": true,                                                                                                                
+             "early_stopping": true,                                                                                                           
+             "eos_token_id": 1,                                                                                                                
+             "max_new_tokens": 128,                                                                                                            
+             "num_beams": 3,                                                                                                                   
+             "pad_token_id": 0                                                                                                                 
+           }                                                                                                                                   
+                                                                                                                                               
+PROPMT: The former Tour de France winner Lance Armstrong has admitted to what wrongdoing?
+ANSWER: The answer is doping.
+
+Lance Armstrong has admitted to doping. He was stripped of his seven Tour de France titles and banned from the sport for life.
+
+PROPMT: Last summer we went to the beach on lake Michigan. It was a windy day and the waves were huge. There was a warning posted on the beach, warning the swimmers of something. What was the warning?
+ANSWER: The answer is: The text does not specify the warning, therefore I cannot answer the question.
+
+PROPMT: In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)? 
+ANSWER: The answer: Dave Gahan.
+
+Dave Gahan was the lead vocalist for Depeche Mode. He was known for his powerful and emotive vocals, which were a key factor in the band's success. Gahan's greatest contributions to Depeche Mode include his powerful vocals, his emotional range, and his ability to convey complex emotions through his lyrics. His departure from the band in 1995 was a major loss for Depeche Mode and for fans of the band.
+
+PROPMT: A bicycle has 2 wheels and goes 10 mile per hour. A tricycle has 3 wheels and goes how fast? 
+ANSWER: The answer is 5 miles per hour.
+
+The tricycle has 3 wheels and goes 5 miles per hour.
+
+PROPMT: Complete this line: I see a little silhouetto of a man 
+ANSWER: _________________
+
+The answer is "walking in the night".
+
+I see a little silhouetto of a man walking in the night.
+
+Mistral-7B-v0.1
+[02:56:24] HuggingFaceCaller is instantiated.                                                                                         llm.py:27
+           Current device: cuda                                                                                                      llm.py:190
+[02:56:37] Loaded parameters are:                                                                                                    llm.py:223
+           GenerationConfig {                                                                                                                  
+             "bos_token_id": 1,                                                                                                                
+             "do_sample": true,                                                                                                                
+             "early_stopping": true,                                                                                                           
+             "eos_token_id": 2,                                                                                                                
+             "max_new_tokens": 128,                                                                                                            
+             "num_beams": 3,                                                                                                                   
+             "repetition_penalty": 2.0                                                                                                         
+           }                                                                                                                                   
+                                                                                                                                               
+PROPMT: The former Tour de France winner Lance Armstrong has admitted to what wrongdoing?
+ANSWER: Lance Armstrong, the seven-time Tour de France winner who was stripped of his titles in 2012 for doping, has admitted that he used performance-enhancing drugs.
+
+Armstrong made the admission in an interview with Oprah Winfrey that will be broadcast on Thursday and Friday on her OWN network.
+
+“I view this situation as one big lie that I repeated a lot of times,” Armstrong told Winfrey, according to a transcript released by the network. “It wasn’t one thing. It wasn’t just the one time. It wasn’
+
+PROPMT: Last summer we went to the beach on lake Michigan. It was a windy day and the waves were huge. There was a warning posted on the beach, warning the swimmers of something. What was the warning?
+ANSWER: I’m not sure if this is what the warning was about, but I think it should have been. The waves were so big that they were dragging people out to sea. Even though there were lifeguards on duty, they couldn’t do anything because the waves were too strong.
+
+The only way to get back to shore was to swim against the current. And even then, you had to be careful not to get caught in an undertow.
+
+If you’ve ever been caught in an undertow, you know how terrifying it can be. You feel like you’re being pulled
+
+PROPMT: In 1995 a member of the synthpop band Depeche Mode called it quits. Some fans still feel despondent about him leaving the band. Why is that (hint: what were his greatest contributions to the success of the band)? 
+ANSWER: 200 words
+
+## Needs help with similar assignment?
+
+We are available 24x7 to deliver the best services and assignment ready within 3-4 hours? Order a custom-written, plagiarism-free paper
+
+Order Over WhatsApp Place an Order Online
+
+PROPMT: A bicycle has 2 wheels and goes 10 mile per hour. A tricycle has 3 wheels and goes how fast? 
+ANSWER: 15 miles per hour. How do I know this? Because I just made it up.
+
+A car has 4 wheels and goes 20 miles per hour. A truck has 6 wheels and goes how fast? 30 miles per hour. How do I know this? Because I just made it up.
+
+A train has 8 wheels and goes 40 miles per hour. A bus has 12 wheels and goes how fast? 60 miles per hour. How do I know this? Because I just made it up.
+
+An airplane has 4 wheels and goes
+
+PROPMT: Complete this line: I see a little silhouetto of a man 
+ANSWER: ....
+
+If you're a Queen fan, you know the answer. If you're not, let me help you out: "Scaramouche, Scaramouche, will you do the Fandango?"
+
+It's one of the most famous opening lines in rock music history, and it's about to be immortalized in a new stamp from the U.S. Postal Service.
+
+The USPS announced Thursday that it will issue a commemorative stamp on Feb. 14, 2019, honoring the legendary British rock band.
+
